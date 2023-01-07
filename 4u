@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Say Hi to Zipuu  !</title>
+  </head>
+  <body>
+    <div class="card bg-love">
+      <img id="thumb" src="image2.png" alt="thumb" class="img-thumb" />
+      <h1 class="latin text-center">untuk zipuu</h1>
+      <h2 class="text-center">aloo zipuu aku punya tebakan, kamu tau ga ikan apa yang terindah?</h2>
+      <div class="card-footer">
+        <div class="btn tau" onclick="tau()">Iya😟</div>
+        <div class="btn gak" onclick="gaktau(this)" onmouseover="gaktau(this)">Gak ☹️</div>
+      </div>
+      <div class="info text-center mt-16" id="info"></div>
+    </div>
+    <div class="text-center mt-16" id="musicbox">
+      <audio id="music" src="music.mp3" controls></audio>
+    </div>
+  </body>
+  <script>
+    var _info = document.getElementById("info");
+    var _music = document.getElementById("music");
+    function gaktau(element) {
+      element.style.position = "absolute";
+      element.style.left = `${Math.floor(Math.random() * 90)}%`;
+      element.style.top = `${Math.floor(Math.random() * 90)}%`;
+
+      _info.innerHTML = "Ikannot live withou u in my life";
+    }
+    function mau() {
+      if (_music.paused) _music.play();
+      _info.innerHTML = "Ikannot live withou u in my life.";
+    }
+    <h3 class="text-center">kalo ayam yang termanis??</h2>
+      <div class="card-footer">
+        <div class="btn tau" onclick="tau()">Iya😟</div>
+        <div class="btn gak" onclick="gaktau(this)" onmouseover="gaktau(this)">Gak ☹️</div>
+      </div>
+      <div class="info text-center mt-16" id="info"></div>
+    </div>
+    <div class="text-center mt-16" id="musicbox">
+      <audio id="music" src="music.mp3" controls></audio>
+    </div>
+  </body>
+  <script>
+    var _info = document.getElementById("info");
+    var _music = document.getElementById("music");
+    function gaktau(element) {
+      element.style.position = "absolute";
+      element.style.left = `${Math.floor(Math.random() * 90)}%`;
+      element.style.top = `${Math.floor(Math.random() * 90)}%`;
+
+      _info.innerHTML = "Ayam falling in love with u xixi";
+    }
+    function mau() {
+      if (_music.paused) _music.play();
+      _info.innerHTML = "Ayam falling in love with u xixi.";
+    }
+     <h4 class="text-center">percaya ga kalo aku gabisa gombal??</h2>
+      <div class="card-footer">
+        <div class="btn percaya" onclick="percaya()">Iya😟</div>
+        <div class="btn gak" onclick="gak percaya(this)" onmouseover="gak percaya(this)">Gak ☹️</div>
+      </div>
+      <div class="info text-center mt-16" id="info"></div>
+    </div>
+    <div class="text-center mt-16" id="musicbox">
+      <audio id="music" src="music.mp3" controls></audio>
+    </div>
+  </body>
+  <script>
+    var _info = document.getElementById("info");
+    var _music = document.getElementById("music");
+    function gak percaya(element) {
+      element.style.position = "absolute";
+      element.style.left = `${Math.floor(Math.random() * 90)}%`;
+      element.style.top = `${Math.floor(Math.random() * 90)}%`;
+
+      _info.innerHTML = "pinterr, itu td emang lirik lagu :( tp intinya gitu";
+    }
+    function percaya() {
+      if (_music.paused) _music.play();
+      _info.innerHTML = "kamu mah percaya-percaya ajaaa, itu td lirik lagu tauu, tp intinya gitu";
+    }
+       <h5 class="text-center">dahhh, semoga harimu hepihepi zipu yg ucuu</h2>
+      <div class="card-footer">
+  </script>
+</html>
